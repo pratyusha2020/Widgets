@@ -1,6 +1,6 @@
 import tkinter as tk
 
-def calculate_product():
+def calculate_value():
     try:
         num1 = float(entry1.get())
         
@@ -21,7 +21,7 @@ entry1.pack()
 
 
 
-calculate_button = tk.Button(root, text="Calculate", command=calculate_product)
+calculate_button = tk.Button(root, text="Calculate", command=calculate_value)
 calculate_button.pack()
 
 result_label = tk.Label()
